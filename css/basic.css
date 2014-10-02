@@ -50,7 +50,8 @@ body
     color: white;
     text-decoration: none;
     font-size: 13px;
-    font-family: 'Verdana', sans-serif
+    font-family: 'Verdana', sans-serif;
+    text-transform: capitalize;
 }
 
 #menu ul li a:hoover {
@@ -83,25 +84,26 @@ background-color: #95efd7;
 #maincontent h1
 {
     font-size: 31px;
-    font-family: 'Times New Roman', serif
+    font-family: 'Times New Roman', serif;
 }
 
 #maincontent img
 {
     float: left;
+    margin-right: 10px;
 }
 
 #maincontent p
 {
-    float: left;
     font-size: 31px;
-    font-family: 'Times New Roman', serif
+    font-family: 'Times New Roman', serif;
+    line-height: 20px; 
 }
 
 #maincontent p
 {
     font-size: 13px;
-    font-family: 'Verdana', sans-serif
+    font-family: 'Verdana', sans-serif;
 }
 
 #subcontent
@@ -117,27 +119,27 @@ background-color: #95efd7;
 {
     color: #51473d;
     font-size: 17px;
-    font-family: 'Times New Roman', serif
+    font-family: 'Times New Roman', serif;
 }
 
 #subcontent h2
 {
     font-size: 14px;
-    font-family: 'Times New Roman', serif
+    font-family: 'Times New Roman', serif;
 }
 
 #subcontent p
 {
     color: #797066;
     font-size: 10px;
-    font-family: 'Verdana', sans-serif
+    font-family: 'Verdana', sans-serif;
 }
 
 #subcontent a
 {
     color: #797066;
     font-size: 14px;
-    font-family: 'Verdana', sans-serif
+    font-family: 'Verdana', sans-serif;
 }
 
 #subcontent ul
@@ -152,5 +154,5 @@ background-color: #95efd7;
     clear: both;
     font-size: 10px;
     font-style: italic;
-    font-family: 'Verdana', sans-serif
+    font-family: 'Verdana', sans-serif;
 }
