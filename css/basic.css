@@ -32,12 +32,15 @@ body
     float: left;
     background-color: #51473d;
     width: 600px;
-    height: 38px;
+    height: 39px;
     color: #eae7d2;
 }
 
-#menu li {
+#menu li 
+{
     display: inline;
+    float:left;
+    border: 1px solid #51473d;
 }
 
 #menu ul li a {
@@ -52,6 +55,7 @@ body
     font-size: 13px;
     font-family: 'Verdana', sans-serif;
     text-transform: capitalize;
+
 }
 
 #menu ul li a:hoover 
@@ -85,7 +89,7 @@ body
 {
     font-size: 31px;
     font-family: 'Times New Roman', serif;
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 #maincontent img
@@ -121,14 +125,14 @@ body
     color: #51473d;
     font-size: 17px;
     font-family: 'Times New Roman', serif;
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 #subcontent h2
 {
     font-size: 14px;
     font-family: 'Times New Roman', serif;
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 #subcontent p
