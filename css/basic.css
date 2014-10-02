@@ -18,13 +18,14 @@ body
     background-repeat: no-repeat;
     background-position: center bottom;
     background-color: #51473d;
-    height: 220px;
+    height: 217px;
     width: 600px;
     color: #eae7d2;
     font-family: 'Verdana', sans-serif;
     font-size: 10px;
     font-style: italic;
     text-align: right;
+    padding-top: 3px;
 }
 
 #menu
@@ -43,7 +44,9 @@ body
     border: 1px solid #51473d;
 }
 
-#menu ul li a {
+#menu ul { padding-left:0; margin-left: 11px; }
+
+#menu a {
     width: 60px;
     padding-top: 12px;
     padding-left: 20px;
@@ -58,15 +61,16 @@ body
 
 }
 
-#menu ul li a:hoover 
+#menu a:hoover 
 {
+    color: #ffffff;
     background-color: #ffffff;
 }
 
-#menu ul li .active
+#menu ul li active
 {
     color: #5f4f3a;
-    background-color: #95efd7;
+    background-color: #eae7d2;
 }
 
 
@@ -100,15 +104,9 @@ body
 
 #maincontent p
 {
-    font-size: 31px;
-    font-family: 'Times New Roman', serif;
-    line-height: 20px; 
-}
-
-#maincontent p
-{
     font-size: 13px;
     font-family: 'Verdana', sans-serif;
+    line-height: 20px; 
 }
 
 #subcontent
@@ -117,11 +115,13 @@ body
     float: left;
     border-left-style: dashed;
     border-width: 1px;
+    border-color: #cecab9;
     padding-left: 12px;
 }
 
 #subcontent h1
 {
+    margin-top: 30px;
     color: #51473d;
     font-size: 17px;
     font-family: 'Times New Roman', serif;
@@ -133,10 +133,13 @@ body
     font-size: 14px;
     font-family: 'Times New Roman', serif;
     font-weight: lighter;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #subcontent p
 {
+    padding-top: 14px;
     color: #797066;
     font-size: 9px;
     font-family: 'Verdana', sans-serif;
