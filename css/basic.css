@@ -47,23 +47,23 @@ body
     padding-right: 20px;
     padding-bottom: 3px;
     background-color: #797066;
-    color: white;
+    color: #eae7d2;
     text-decoration: none;
     font-size: 13px;
     font-family: 'Verdana', sans-serif;
     text-transform: capitalize;
 }
 
-#menu ul li a:hoover {
+#menu ul li a:hoover 
+{
     background-color: #ffffff;
 }
 
 #menu ul li .active
 {
-color: #5f4f3a;
-background-color: #95efd7;
+    color: #5f4f3a;
+    background-color: #95efd7;
 }
-
 
 
 #content
@@ -85,6 +85,7 @@ background-color: #95efd7;
 {
     font-size: 31px;
     font-family: 'Times New Roman', serif;
+    font-weight: 100;
 }
 
 #maincontent img
@@ -120,19 +121,22 @@ background-color: #95efd7;
     color: #51473d;
     font-size: 17px;
     font-family: 'Times New Roman', serif;
+    font-weight: 100;
 }
 
 #subcontent h2
 {
     font-size: 14px;
     font-family: 'Times New Roman', serif;
+    font-weight: 100;
 }
 
 #subcontent p
 {
     color: #797066;
-    font-size: 10px;
+    font-size: 9px;
     font-family: 'Verdana', sans-serif;
+    line-height: 20px; 
 }
 
 #subcontent a
