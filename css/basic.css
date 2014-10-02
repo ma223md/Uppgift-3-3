@@ -9,6 +9,7 @@ body
     width: 600px;
     overflow: auto;
     margin: 0 auto;
+    border: 1px solid #cecab9;
 }
 
 #topbar
@@ -149,4 +150,7 @@ background-color: #95efd7;
 #bottomcontent
 {
     clear: both;
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Verdana', sans-serif
 }
