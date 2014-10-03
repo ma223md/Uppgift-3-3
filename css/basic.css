@@ -30,34 +30,44 @@ body
 
 #menu
 {
-    float: left;
     background-color: #51473d;
     width: 600px;
     height: 39px;
     color: #eae7d2;
+    position: relative;
+    
 }
 
 #menu li 
 {
     display: inline;
-    border: 1px solid #51473d;
-
+    vertical-align: bottom;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
-#menu ul { padding-left:0; margin-left: 11px; }
+#menu ul 
+{ 
+    padding-left:0; 
+    margin-left: 11px; 
+    margin-top: 0;
+    padding-top: 19px;
+    position: absolute;
+}
 
-#menu ul li a {
+#menu ul li a 
+{
     width: 60px;
     color: #eae7d2;
     text-decoration: none;
     font-size: 13px;
     font-family: 'Verdana', sans-serif;
     text-transform: capitalize;
-        background-color: #797066;
-        padding-top: 12px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 3px;
+    background-color: #797066;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px;
 }
 
 #menu a:hover 
@@ -69,10 +79,10 @@ body
 {
     color: #797066;
     background-color: #eae7d2;
-        padding-top: 12px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 3px;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px;
 }
 
 #menu > a:first-child { display: none; } 
@@ -143,7 +153,7 @@ body
 
 #subcontent p
 {
-    padding-top: 14px;
+    padding-top: 6px;
     color: #797066;
     font-size: 9px;
     font-family: 'Verdana', sans-serif;
